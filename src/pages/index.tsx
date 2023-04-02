@@ -90,7 +90,7 @@ export default function Home() {
           </div>
           <div className="col-span-12 md:col-span-2 lg:col-span-4 flex flex-col items-center justify-center">
             <p className="mb-3">Take A Look At Our EVENTS</p>
-            <Button className="bg-white hover:bg-white border border-teal-700 hover:text-teal-600">
+            <Button className="bg-white text-teal-600 hover:bg-white border border-teal-700 hover:text-teal-600">
               View All
             </Button>
           </div>
