@@ -25,16 +25,7 @@ const MainBanner = () => {
               THAMBATTY VIVEKANANDAR ILLAIGNAR NARPANI MANDRAM
             </h1>
             <p className="mb-4 text-gray-200 w-full md:w-[70%] ">
-              Thambatty Vivekanandar Illaignar Narpani Mandram is affiliated
-              with Nehru Yuva Kendra, The Nilgiris District which is under
-              Government of India- Ministry of Youth Affairs and Sports. After
-              affiliation the Youth Club would become eligible to participate,
-              partner and access the services provided by NYKS. Once a Youth
-              Club is affiliated with NYK, the magnitude of programmes available
-              for the Youth Club increases and they can be part and parcel of
-              the NYK sponsored activities. Registered Youth Clubs earn trust of
-              the public and Governments. Registered Youth Clubs are more
-              credible in the eyes of the public and Governments.
+            Our society club “Thambatty Vivekanandar Illaignar Narpani Mandram” was officially registered under the Tamil Nadu Societies Registration Act, 1975 (Tamil Nadu Act 27 of 1975) and we received the Certificate.
             </p>
 
             <Button>About us</Button>
