@@ -36,7 +36,7 @@ const Nav = () => {
     <div
       className={`w-full fixed top-0 left-0 z-10 ${
         scrolled &&
-        "bg-gray-200 transistion-background duration-75 ease shadow-md backdrop-blur-sm bg-blue-100/80"
+        "transistion-background duration-75 ease shadow-md backdrop-blur-sm bg-blue-100/80"
       } transistion-background duration-75 ease`}
     >
       <Container className="md:flex items-center justify-between py-3 md:px-10 px-7">
