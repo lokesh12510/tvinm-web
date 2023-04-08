@@ -13,7 +13,7 @@ const UpcomingEvent = () => {
                     <div className="mb-2 text-yellow-500">
                         <SparkleIcon />
                     </div>
-                    <h1 className="underline text-yellow-500 mb-4 text-4xl">Ongoing event</h1>
+                    <h1 className="underline text-yellow-500 mb-4 text-2xl md:text-4xl">Ongoing event</h1>
                     <p className="text-white text-[1.3rem] leading-7 mb-3">
                         <span className="font-bold">Talent Chase 2</span> {`is an online competition conducted for the kids and school students. Talent Chase is a great platform to showcase the kid's talents to this world. A participant certificate will be provided for the participants and the winners will be awarded with cash prizes, certificates, medals and trophies.`}
                     </p>
@@ -30,7 +30,7 @@ const UpcomingEvent = () => {
                                     <NextIcon />
                                 </div>
 
-                                <p className="mx-3 text-white">{item}</p>
+                                <p className="mx-3 text-white text-xl md:text-2xl">{item}</p>
                             </div>
                         );
                     })}

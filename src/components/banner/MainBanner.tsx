@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../button/Button";
 import Container from "../ui/Container";
 import Image from "next/image";
+import Link from "next/link";
 
 const MainBanner = () => {
   return (
@@ -25,10 +26,11 @@ const MainBanner = () => {
               THAMBATTY VIVEKANANDAR ILLAIGNAR NARPANI MANDRAM
             </h1>
             <p className="mb-4 text-gray-200 w-full md:w-[70%] ">
-            Our society club “Thambatty Vivekanandar Illaignar Narpani Mandram” was officially registered under the Tamil Nadu Societies Registration Act, 1975 (Tamil Nadu Act 27 of 1975) and we received the Certificate.
+            TVINM is a society club which was formed on 27 December 2019 at Thambatty Village with a strong motive to develop the village and to provide every possible services to the people. It was officially registered under the Tamil Nadu Societies Registration Act, 1975 (Tamil Nadu Act 27 of 1975).
             </p>
-
-            <Button>About us</Button>
+            <Link href="/about-us">
+              <Button>About us</Button>
+            </Link>
           </div>
         </div>
       </Container>

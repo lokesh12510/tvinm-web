@@ -3,6 +3,7 @@ import Container from "@/components/ui/Container";
 import { CloseIcon, MenuIcon } from "@/icons/Index";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
 const Nav = () => {
@@ -15,6 +16,8 @@ const Nav = () => {
   let [open, setOpen] = useState(false);
 
   const [scrolled, setScrolled] = useState(false);
+
+  const router = useRouter()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,6 +35,13 @@ const Nav = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+
+  useEffect(()=>{
+    open && setOpen(false)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[router.pathname])
+
   return (
     <div
       className={`w-full fixed top-0 left-0 z-10 ${
@@ -54,9 +64,9 @@ const Nav = () => {
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-4xl absolute right-8 top-6 cursor-pointer md:hidden text-white"
+          className={`text-2xl absolute right-8 top-4 cursor-pointer md:hidden ${scrolled ? 'text-black':'text-white'} `}
         >
-          <MenuIcon />
+          <MenuIcon className="h-9 w-9" />
         </div>
 
         <div
@@ -68,7 +78,7 @@ const Nav = () => {
             onClick={() => setOpen(!open)}
             className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
           >
-            <CloseIcon />
+            <CloseIcon className="h-9 w-9" />
           </div>
 
           <ul className="md:flex md:items-center md:pb-0">
@@ -76,13 +86,13 @@ const Nav = () => {
               <a
                 key={link.name}
                 href={link.link}
-                className={`text-black  hover:text-gray-500 w-full ${
+                className={`text-black  hover:text-yellow-400 w-full ${
                   scrolled ? "md:text-black" : "md:text-white"
                 }`}
               >
                 <li
                   className={`md:ml-8 text-xl md:my-0 my-7 whitespace-nowrap ${
-                    link.main && "text-yellow-500 font-bold"
+                    router.pathname === link.link && "font-bold text-yellow-400"
                   }`}
                 >
                   {link.name}

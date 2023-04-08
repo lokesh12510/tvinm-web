@@ -20,7 +20,7 @@ const BlogCard = (props:TBlog) => {
         />
       </div>
       <div className="p-3 pb-5">
-        <h6 className="text-3xl text-bold mb-3">{title}</h6>
+        <h6 className="text-2xl md:text-3xl text-bold mb-3">{title}</h6>
         <p className="text-lg mb-3 text-gray-600">
           {content}
         </p>
