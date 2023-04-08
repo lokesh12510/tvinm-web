@@ -19,7 +19,7 @@ const Events = () => {
             <Container className="py-[60px]">
 
 
-            <p className="text-lg text-center md:w-[65vw] m-auto mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt maiores voluptate harum tenetur! Provident nostrum modi aliquid enim ipsa.</p>
+            <p className="text-lg text-center md:w-[65vw] m-auto mb-6">We conduct events every year and below listed are a few of those. 5 offline competitions and 1 Online competitions have been conducted as of Jan 2023.</p>
 
 
                 <div className="grid grid-cols-12 gap-7">

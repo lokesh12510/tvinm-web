@@ -21,9 +21,9 @@ const BlogCard = (props:TBlog) => {
       </div>
       <div className="p-3 pb-5">
         <h6 className="text-2xl md:text-3xl text-bold mb-3">{title}</h6>
-        <p className="text-lg mb-3 text-gray-600">
-          {content}
-        </p>
+        <div className="text-lg mb-3 text-gray-600">
+          {content.slice(0,100) + '...'}
+        </div>
 
         <Button>Read more</Button>
       </div>

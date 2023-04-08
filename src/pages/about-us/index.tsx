@@ -10,7 +10,7 @@ const AboutUs = () => {
                 <div className=" z-[2] mb-4">
                     <h3 className="text-3xl font-bold italic space-x-2 mb-4 text-white">About Us</h3>
 
-                    <p className="text-lg text-white">Overview of our socity club</p>
+                    <p className="text-lg text-white">Overview of our society club</p>
                 </div>
             </div>
             <Container className="py-[60px]">

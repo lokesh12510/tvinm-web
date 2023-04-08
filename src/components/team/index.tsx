@@ -9,8 +9,7 @@ const TeamSection = () => {
         <>
             <Container className="py-[30px]">
                 <p className="text-lg text-center md:w-[65vw] m-auto mb-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque iste autem ea saepe assumenda? Nemo
-                    cum facere mollitia vitae veritatis?
+                Our team consists of Five Executive Members and 15 Committee Members. Committee Heads and Leaders will be reporting to the Executive Members.
                 </p>
 
                 <div className="bg-gray-200 p-3 py-6 rounded-md">
