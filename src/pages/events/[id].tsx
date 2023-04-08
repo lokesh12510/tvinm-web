@@ -12,8 +12,6 @@ const EventDetail = () => {
 
     const { query, push } = useRouter();
 
-    console.log(query);
-
     useEffect(() => {
         let hasEvent = blogList.find((item) => item.id === query.id);
         if (hasEvent) {
@@ -37,8 +35,6 @@ const EventDetail = () => {
             </Container>
         );
     }
-
-    console.log(event.date)
 
     return (
         <div>
