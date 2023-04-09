@@ -8,6 +8,8 @@ const AboutUs = () => {
         <>
             <Head>
                 <title>About us - TVINM</title>
+                <meta name="title" content="Thambatty Vivekanandar Illaignar Narpani Mandram"></meta>
+                <meta name="description" content="Thambatty Vivekanandar Illaignar Narpani Mandram is affiliated with Nehru Yuva Kendra, The Nilgiris District which is under Government of India- Ministry of Youth Affairs and Sports."></meta>
             </Head>
             <div className="w-full h-[220px] md:h-[300px] relative flex items-center flex-col justify-center text-center overflow-hidden">
                 <div className="absolute w-[140%] h-full  bg-[url('/images/about-bg.svg')] bg-cover rounded-b-[50%] pt-[20px] md:pt-[40px]"></div>

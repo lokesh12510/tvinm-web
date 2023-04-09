@@ -10,6 +10,8 @@ const Contact = () => {
         <>
             <Head>
                 <title>Contact Us - TVINM</title>
+                <meta name="title" content="Thambatty Vivekanandar Illaignar Narpani Mandram"></meta>
+                <meta name="description" content="Thambatty Vivekanandar Illaignar Narpani Mandram is affiliated with Nehru Yuva Kendra, The Nilgiris District which is under Government of India- Ministry of Youth Affairs and Sports."></meta>
             </Head>
             <div className="w-full h-[30vh] md:h-[60vh] bg-slate-400 relative brightness-90">
                 <Image src="/images/contact-bg.png" alt="contact banner" fill className="object-fill" />

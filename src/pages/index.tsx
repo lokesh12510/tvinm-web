@@ -9,6 +9,8 @@ export default function Home() {
         <main>
             <Head>
                 <title>Home - TVINM</title>
+                <meta name="title" content="Thambatty Vivekanandar Illaignar Narpani Mandram"></meta>
+                <meta name="description" content="Thambatty Vivekanandar Illaignar Narpani Mandram is affiliated with Nehru Yuva Kendra, The Nilgiris District which is under Government of India- Ministry of Youth Affairs and Sports."></meta>
             </Head>
             <MainBanner />
 
