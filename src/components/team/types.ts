@@ -21,7 +21,7 @@ export const teamList: Team[] = [
     { 
         name: "Somesh N", 
         position: "Secretary", 
-        imageURL: "/images/team/somesh.png" ,
+        imageURL: "/images/team/somesh.jpg" ,
         priority:1,
     },
     { 
