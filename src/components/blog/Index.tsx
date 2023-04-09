@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const BlogSection = () => {
     return (
-        <Container className="py-[60px]">
+        <Container className="py-[30px] md:py-[60px]">
             <div className="flex flex-col w-full items-center justify-center mb-8">
                 <h5 className="font-bold text-3xl mb-3 text-teal-700">EVENTS</h5>
                 <p className="text-lg">Take A Look At Our Latest EVENTS</p>

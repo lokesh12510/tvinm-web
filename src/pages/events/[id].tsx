@@ -1,6 +1,7 @@
 import { TBlog, blogList } from "@/components/blog/types";
 import Container from "@/components/ui/Container";
 import { DateIcon } from "@/icons/Index";
+import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
@@ -38,6 +39,9 @@ const EventDetail = () => {
 
     return (
         <div>
+            <Head>
+                <title>{event.title}</title>
+            </Head>
             <div className="w-full h-[30vh] md:h-[60vh] bg-slate-400 relative brightness-90">
                 <Image src={event.imageURL} alt={event.title} fill className="object-fill"/>
             </div>

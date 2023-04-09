@@ -7,7 +7,7 @@ const MainCard = (props: Team) => {
 
     return (
         <div className="md:max-w-[220px] pb-2 bg-teal-600 rounded-[10px] overflow-hidden shadow-xl hover:shadow-white hover:shadow-sm">
-            <div className="relative w-full h-[160px] md:h-[250px]">
+            <div className="relative w-full h-[180px] md:h-[200px]">
                 <Image src={imageURL} className="object-fill" alt="members" fill />
             </div>
             <div className="p-1 px-3">

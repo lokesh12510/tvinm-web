@@ -2,17 +2,21 @@ import MainBanner from "@/components/banner/MainBanner";
 import BlogSection from "@/components/blog/Index";
 import NYKSection from "@/components/nykSection/Index";
 import UpcomingEvent from "@/components/upcomingEvent/Index";
+import Head from "next/head";
 
 export default function Home() {
-  return (
-    <main>
-      <MainBanner />  
-      
-      <UpcomingEvent/>
+    return (
+        <main>
+            <Head>
+                <title>Home - TVINM</title>
+            </Head>
+            <MainBanner />
 
-      <NYKSection/>
+            <UpcomingEvent />
 
-      <BlogSection/>
-    </main>
-  );
+            <NYKSection />
+
+            <BlogSection />
+        </main>
+    );
 }

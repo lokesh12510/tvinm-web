@@ -1,10 +1,14 @@
 import Container from "@/components/ui/Container";
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
 const AboutUs = () => {
     return (
         <>
+            <Head>
+                <title>About us - TVINM</title>
+            </Head>
             <div className="w-full h-[220px] md:h-[300px] relative flex items-center flex-col justify-center text-center overflow-hidden">
                 <div className="absolute w-[140%] h-full  bg-[url('/images/about-bg.svg')] bg-cover rounded-b-[50%] pt-[20px] md:pt-[40px]"></div>
                 <div className=" z-[2] mb-4">

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const NYKSection = () => {
   return (
-    <Container className='py-[60px]'>
+    <Container className='py-[30px] md:py-[60px]'>
         <div className="grid grid-cols-2 gap-3">
             <div className="col-span-2 md:col-span-1 order-2 md:order-1">
                 <div className="w-full h-[150px] md:h-[300px] relative">

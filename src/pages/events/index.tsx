@@ -1,12 +1,16 @@
 import BlogCard from "@/components/blog/BlogCard";
 import { blogList } from "@/components/blog/types";
 import Container from "@/components/ui/Container";
+import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 
 const Events = () => {
     return (
         <>
+            <Head>
+                <title>Events - TVINM</title>
+            </Head>
             <div className="w-full h-[220px] md:h-[300px] relative flex items-center flex-col justify-center text-center overflow-hidden">
                 <div className="absolute w-[140%] h-full  bg-[url('/images/event-bg.svg')] bg-cover rounded-b-[50%] pt-[20px] md:pt-[40px]"></div>
                 <div className=" z-[2] mb-4">
@@ -16,7 +20,7 @@ const Events = () => {
                 </div>
             </div>
 
-            <Container className="py-[60px]">
+            <section className="py-[30px] container max-w-screen-lg mx-auto px-3">
 
 
             <p className="text-lg text-center md:w-[65vw] m-auto mb-6">We conduct events every year and below listed are a few of those. 5 offline competitions and 1 Online competitions have been conducted as of Jan 2023.</p>
@@ -33,7 +37,7 @@ const Events = () => {
                         );
                     })}
                 </div>
-            </Container>
+            </section>
         </>
     );
 };

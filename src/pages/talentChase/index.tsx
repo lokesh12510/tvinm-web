@@ -1,6 +1,7 @@
 import Button from "@/components/button/Button";
 import Container from "@/components/ui/Container";
 import { FORM_LINK } from "@/constants";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -8,6 +9,9 @@ import React from "react";
 const TalentChase = () => {
     return (
         <>
+            <Head>
+                <title>Talent Chase 2023 - TVINM</title>
+            </Head>
             <div className="w-full h-[30vh] md:h-[75vh] bg-slate-400 relative brightness-90">
                 <Image
                     src={"/images/talentChase/talent_chase.png"}
@@ -73,7 +77,8 @@ const TalentChase = () => {
                                 </div>
 
                                 <p className="text-center my-2">Pay to <span className="font-bold uppercase">Harshath</span> </p>
-                                <p className="text-center my-2">Classes <span className="font-bold uppercase">6 - 12</span> </p>
+                                <p className="text-center my-1">+91 99436 22690</p>
+                                <p className="text-center my-2">Classes <span className="font-bold uppercase">6th - 12th</span> </p>
                             </div>
                             <div className="col-span-12 md:col-span-6   mx-auto">
                                 <div className="w-[150px] h-[150px] relative">
@@ -81,7 +86,8 @@ const TalentChase = () => {
                                 </div>
 
                                 <p className="text-center my-2">Pay to <span className="font-bold uppercase">Yakash</span> </p>
-                                <p className="text-center my-2"><span className="font-bold uppercase">Pre-KG</span> -  Class <span className="font-bold uppercase">5</span> </p>
+                                <p className="text-center my-1">+91 63838 10941</p>
+                                <p className="text-center my-2"><span className="font-bold uppercase">Pre-KG</span> -  Class <span className="font-bold uppercase">5th</span> </p>
                             </div>
                         </div>
                     </div>
@@ -121,8 +127,8 @@ const TalentChase = () => {
                 <div className="mb-10">
                     <h4 className="font-bold italic text-lg mb-3">Event coordinators:</h4>
 
-                    <p className="mb-2">Harshath- 99436 22690 (Classes 6-12)</p>
-                    <p className="mb-2">Yakash- 6383 810 941 (Pre Kg- Class 5)</p>
+                    <p className="mb-2">Akshaya R - 63693 13320</p>
+                    <p className="mb-2">Nivetha S - 96266 92367</p>
                 </div>
 
 

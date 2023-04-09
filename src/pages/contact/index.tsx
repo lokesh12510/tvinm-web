@@ -1,5 +1,6 @@
 import Container from "@/components/ui/Container";
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/icons/Index";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -7,6 +8,9 @@ import React from "react";
 const Contact = () => {
     return (
         <>
+            <Head>
+                <title>Contact Us - TVINM</title>
+            </Head>
             <div className="w-full h-[30vh] md:h-[60vh] bg-slate-400 relative brightness-90">
                 <Image src="/images/contact-bg.png" alt="contact banner" fill className="object-fill" />
             </div>
@@ -15,9 +19,8 @@ const Contact = () => {
                 <h4 className="font-bold text-2xl italic mb-3">Contact Us</h4>
 
                 <p className="my-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quisquam vel alias error quaerat nemo
-                    recusandae at nisi est corrupti?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                    voluptatibus saepe sapiente distinctio pariatur sed, fugit in animi nulla aut.
+                    We are currently working on the betterment of our society by providing every possible services. You
+                    can comment your feedback and suggestions below.
                 </p>
 
                 <div className="grid grid-cols-12 gap-3">
@@ -90,7 +93,10 @@ const Contact = () => {
                                         d="M29.7212 15.4368L29.7212 15.4379C29.7345 18.3319 28.8881 21.1646 27.2893 23.5769C25.6905 25.9892 23.4113 27.8723 20.7408 28.9875C18.0703 30.1027 15.1287 30.3997 12.2892 29.8409C9.44967 29.282 6.84006 27.8925 4.79132 25.8485C2.74258 23.8045 1.34701 21.198 0.781585 18.3598C0.216158 15.5216 0.50635 12.5794 1.61536 9.90627C2.72437 7.23319 4.60224 4.94966 7.01082 3.34528C9.4194 1.7409 12.2502 0.887932 15.1442 0.894571H15.1453C19.0053 0.894561 22.7076 2.42562 25.4401 5.15185C28.1727 7.87807 29.7123 11.5769 29.7212 15.4368Z"
                                         stroke="#134e4a"
                                     />
-                                    <path d="M22.6633 10.2824H7.62225L15.1428 15.4006L22.6633 10.2824Z" fill="#134e4a" />
+                                    <path
+                                        d="M22.6633 10.2824H7.62225L15.1428 15.4006L22.6633 10.2824Z"
+                                        fill="#134e4a"
+                                    />
                                     <path
                                         d="M15.1437 18.3944L6.36981 12.4407V22.2243H23.8829V12.4407L15.1437 18.3944Z"
                                         fill="#134e4a"

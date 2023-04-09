@@ -7,7 +7,7 @@ import SubCard from "./SubCard";
 const TeamSection = () => {
     return (
         <>
-            <Container className="py-[30px]">
+            <section className="py-[30px] container max-w-screen-lg mx-auto px-3">
                 <p className="text-lg text-center md:w-[65vw] m-auto mb-6">
                 Our team consists of 5 Executive Members, 15 Committee Members and 30 active Members. Committee Heads and Leaders will be reporting to the Executive Members.
                 </p>
@@ -31,9 +31,9 @@ const TeamSection = () => {
                             })}
                     </div>
                 </div>
-            </Container>
+            </section>
 
-            <Container className="py-[30px]">
+            <section className="py-[30px] container max-w-screen-lg mx-auto px-3">
                 <h3 className="text-2xl font-semibold space-x-2 mb-6 text-center md:text-left text-black">
                     COMMITTEE MEMBERS
                 </h3>
@@ -49,7 +49,7 @@ const TeamSection = () => {
                             );
                         })}
                 </div>
-            </Container>
+            </section>
         </>
     );
 };
