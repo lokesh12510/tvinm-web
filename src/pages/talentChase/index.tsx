@@ -12,7 +12,10 @@ const TalentChase = () => {
             <Head>
                 <title>Talent Chase 2023 - TVINM</title>
                 <meta name="title" content="Thambatty Vivekanandar Illaignar Narpani Mandram"></meta>
-                <meta name="description" content="Thambatty Vivekanandar Illaignar Narpani Mandram is affiliated with Nehru Yuva Kendra, The Nilgiris District which is under Government of India- Ministry of Youth Affairs and Sports."></meta>
+                <meta
+                    name="description"
+                    content="Thambatty Vivekanandar Illaignar Narpani Mandram is affiliated with Nehru Yuva Kendra, The Nilgiris District which is under Government of India- Ministry of Youth Affairs and Sports."
+                ></meta>
             </Head>
             <div className="w-full h-[30vh] md:h-[75vh] bg-slate-400 relative brightness-90">
                 <Image
@@ -25,33 +28,38 @@ const TalentChase = () => {
 
             <div className="bg-teal-400 p-2 px-4 py-7 text-center relative overflow-hidden">
                 <div className="z-1">
-
-                <div className="absolute w-[400px] h-[700px] left-[-50%] md:left-0">
-                    <Vector />
-                </div>
-                <div className="absolute w-[200px] h-[200px] right-[-50%] md:right-0">
-                    <Vector />
-                </div>
+                    <div className="absolute w-[400px] h-[700px] left-[-52%] md:left-0">
+                        <Vector />
+                    </div>
+                    <div className="absolute w-[200px] h-[200px] right-[-53%] md:right-0">
+                        <Vector />
+                    </div>
                 </div>
                 <div className="z-2 relative">
-                <p className=" font-bold uppercase">
-                    Thank you for the grand success of TALENT CHASE 2022 <br />
-                </p>
+                    <p className=" font-bold uppercase">
+                        Thank you for the grand success of TALENT CHASE 2022 <br />
+                    </p>
 
-                <p className="mb-3">
-                    Now we are opening the registration for this year, please register through below link.
-                </p>
-                <Link target="_blank" href={FORM_LINK} >
-                <button className="bg-yellow-500 text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-600 duration-500  whitespace-nowrap uppercase shadow-xl">
-                    Register Now
-                </button>
-                </Link>
+                    <p className="mb-3">
+                        Now we are opening the registration for this year, please register through below link.
+                    </p>
+                    <Link target="_blank" href={FORM_LINK}>
+                        <button className="bg-yellow-500 text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-600 duration-500  whitespace-nowrap uppercase shadow-xl">
+                            Register Now
+                        </button>
+                    </Link>
                 </div>
             </div>
 
             <section className="py-[48px] container max-w-screen-lg mx-auto px-3">
                 <p className="mb-5 text-justify">
-                    TVINM in an attempt to identify and recognise the talents of children in rural areas, conducted an event - Talent Chase, a platform to showcase the hidden skills of young minds. <span className="font-bold italic">Talent Chase 2022</span>  was conducted online and received more than 180 participants from over 60 villages in and around Nilgiris. Various skills like Drawing, Handwritting, Singing, Dancing, Speech and other unique talents of kids were assessed and rewarded with cups, medals and certificates based on their individual performances and motivated them to perform at their best.
+                    TVINM in an attempt to identify and recognise the talents of children in rural areas, conducted an
+                    event - Talent Chase, a platform to showcase the hidden skills of young minds.{" "}
+                    <span className="font-bold italic">Talent Chase 2022</span> was conducted online and received more
+                    than 180 participants from over 60 villages in and around Nilgiris. Various skills like Drawing,
+                    Handwritting, Singing, Dancing, Speech and other unique talents of kids were assessed and rewarded
+                    with cups, medals and certificates based on their individual performances and motivated them to
+                    perform at their best.
                 </p>
 
                 <h4 className="font-bold italic text-lg mb-3">Instructions:</h4>
@@ -64,32 +72,70 @@ const TalentChase = () => {
                         </Link>{" "}
                         and register their names.
                     </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        போட்டியில் பங்குபெறுபவர்கள்{" "}
+                        <Link target="_blank" href={FORM_LINK}>
+                            <span className="font-bold text-teal-700 italic underline px-2">இப்போது பதிவுசெய்க</span>
+                        </Link>{" "}
+                        என்பதைக் கிளிக் செய்து தங்கள் பெயர்களைப் பதிவு செய்யுமாறு கேட்டுக் கொள்ளப்படுகிறார்கள்
+                    </p>
 
                     <p className="text-gray-800 mb-2">
                         {`2. After registration, the participants should pay the amount through the Q.R code which is available below:`}{" "}
                     </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        {`பதிவுசெய்த பிறகு, பங்கேற்பாளர்கள் 'டேலண்ட் சேஸ்' பக்கத்தில் உள்ள Q.R குறியீட்டின் மூலம் தொகையைச் செலுத்த வேண்டும்.`}
+                    </p>
 
                     <div className="bg-teal-200 py-[10px] md:py-[18px] px-2 md:px-5 mb-4 rounded-[7px]">
-                        <p className="mb-1">Scan below respective QR Codes to complete the payment of <span className="font-bold"> ₹150 /.</span></p>
-                        <p  className="mb-3 italic"> <span className="font-bold"> NOTE : </span>The participants can pay 150 rs per head and can register for all the events.</p>
+                        <p className="mb-1">
+                            Scan below respective QR Codes to complete the payment of{" "}
+                            <span className="font-bold"> ₹150 /.</span>
+                        </p>
+                        <p className="mb-3 italic">
+                            {" "}
+                            <span className="font-bold"> NOTE : </span>The participants can pay 150 rs per head and can
+                            register for all the events.
+                        </p>
                         <div className="grid grid-cols-12 gap-4 justify-center items-center">
                             <div className="col-span-12 md:col-span-6   mx-auto">
                                 <div className="w-[150px] h-[150px] relative">
-                                    <Image src={'/images/talentChase/harshath-qr-code.jpg'} alt="harshath-qr-code"  width={656} height={660}  className="object-contain" />
+                                    <Image
+                                        src={"/images/talentChase/harshath-qr-code.jpg"}
+                                        alt="harshath-qr-code"
+                                        width={656}
+                                        height={660}
+                                        className="object-contain"
+                                    />
                                 </div>
 
-                                <p className="text-center my-2">Pay to <span className="font-bold uppercase">Harshath</span> </p>
+                                <p className="text-center my-2">
+                                    Pay to <span className="font-bold uppercase">Harshath</span>{" "}
+                                </p>
                                 <p className="text-center my-1">+91 99436 22690</p>
-                                <p className="text-center my-2">Classes <span className="font-bold uppercase">6th - 12th</span> </p>
+                                <p className="text-center my-2">
+                                    Classes <span className="font-bold uppercase">6th - 12th</span>{" "}
+                                </p>
                             </div>
                             <div className="col-span-12 md:col-span-6   mx-auto">
                                 <div className="w-[150px] h-[150px] relative">
-                                    <Image src={'/images/talentChase/yakash-qr-code.jpg'} alt="yakash-qr-code" width={673} height={677} className="object-contain" />
+                                    <Image
+                                        src={"/images/talentChase/yakash-qr-code.jpg"}
+                                        alt="yakash-qr-code"
+                                        width={673}
+                                        height={677}
+                                        className="object-contain"
+                                    />
                                 </div>
 
-                                <p className="text-center my-2">Pay to <span className="font-bold uppercase">Yakash</span> </p>
+                                <p className="text-center my-2">
+                                    Pay to <span className="font-bold uppercase">Yakash</span>{" "}
+                                </p>
                                 <p className="text-center my-1">+91 63838 10941</p>
-                                <p className="text-center my-2"><span className="font-bold uppercase">Pre-KG</span> -  Class <span className="font-bold uppercase">5th</span> </p>
+                                <p className="text-center my-2">
+                                    <span className="font-bold uppercase">Pre-KG</span> - Class{" "}
+                                    <span className="font-bold uppercase">5th</span>{" "}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -97,32 +143,56 @@ const TalentChase = () => {
                     <p className="text-gray-800 mb-2">
                         3. After the payment acknowledge the event coordinators and attach the screenshot.
                     </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        பணம் செலுத்திய பிறகு, நிகழ்வு ஒருங்கிணைப்பாளர்களிடம் உறுதிப்படுத்தியபின் ஸ்கிரீன்ஷாட்டை
+                        இணைக்கவும்.
+                    </p>
 
                     <p className="text-gray-800 mb-2">
                         4. After confirmation, the participant will be given a Registration number. Use that number
                         throughout the competition.
                     </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        உறுதிப்படுத்திய பிறகு, பங்கேற்பாளருக்கு ஒரு பதிவு எண் வழங்கப்படும். போட்டி முழுவதும் அந்த
+                        எண்ணைப் பயன்படுத்தவும்.
+                    </p>
 
                     <p className="text-gray-800 mb-2">
                         5. You will be added to the TALENT CHASE group by the event coordinators.
+                    </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        {`நிகழ்வின் ஒருங்கிணைப்பாளர்களால் நீங்கள் 'டேலண்ட் சேஸ்' குழுவில் சேர்க்கப்படுவீர்கள்.`}
                     </p>
 
                     <p className="text-gray-800 mb-2">
                         6. The event time schedule will be announced to the participants once when the registration gets
                         closed .
                     </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        பதிவு செய்வதற்குரிய காலம் முடிந்தவுடன் நிகழ்வு நேர அட்டவணை அறிவிக்கப்படும்.
+                    </p>
 
                     <p className="text-gray-800 mb-2">
                         7. The participants will be added to other separate groups according to the events they choose
                         to participate in.
                     </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        பங்கேற்பாளர்கள் பங்கேற்க விரும்பும் நிகழ்வுகளுக்கு ஏற்ப மற்ற தனி குழுக்களில்
+                        சேர்க்கப்படுவார்கள்.
+                    </p>
 
                     <p className="text-gray-800  mb-2">
                         8. The participants should send their respective works to the allotted phone number.
                     </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        பங்கேற்பாளர்கள் தங்களின் படைப்புகளை ஒதுக்கப்பட்ட தொலைபேசி எண்ணுக்கு அனுப்ப வேண்டும்.
+                    </p>
 
                     <p className="text-gray-800  mb-2">
                         9. For each event, a separate group will be created and the information will be passed.
+                    </p>
+                    <p className="text-gray-800 mb-2 pl-4">
+                        ஒவ்வொரு நிகழ்விற்கும் தனித்தனி குழு உருவாக்கப்பட்டு தகவல் அனுப்பப்படும்.
                     </p>
                 </div>
 
@@ -132,7 +202,6 @@ const TalentChase = () => {
                     <p className="mb-2">Akshaya R - 63693 13320</p>
                     <p className="mb-2">Nivetha S - 96266 92367</p>
                 </div>
-
 
                 <div className="text-2xl my-5 border-b-2 font-bold text-center">Glimpse of Talent chase 2022</div>
 
