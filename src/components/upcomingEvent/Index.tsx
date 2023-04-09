@@ -4,6 +4,8 @@ import { NextIcon, SparkleIcon } from "@/icons/Index";
 import Image from "next/image";
 import Button from "../button/Button";
 import { competitionList } from "./types";
+import Link from "next/link";
+import { FORM_LINK } from "@/constants";
 
 const UpcomingEvent = () => {
     return (
@@ -35,10 +37,11 @@ const UpcomingEvent = () => {
                         );
                     })}
                     </div>
-
-                    <Button className="rounded-[10px] bg-yellow-500 text-black hover:bg-yellow-600 shadow-sm shadow-yellow-300">
-                        Register Now
-                    </Button>
+                    <Link target="_blank" href={FORM_LINK}>
+                        <Button className="rounded-[10px] bg-yellow-500 text-black hover:bg-yellow-600 shadow-sm shadow-yellow-300">
+                            Register Now
+                        </Button>
+                    </Link>
                 </div>
                 <div className="col-span-12 md:col-span-5 justify-self-end">
                     <div className="w-[100%] relative h-[100%]">

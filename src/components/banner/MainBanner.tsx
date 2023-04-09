@@ -26,7 +26,7 @@ const MainBanner = () => {
               THAMBATTY VIVEKANANDAR ILLAIGNAR NARPANI MANDRAM
             </h1>
             <p className="mb-4 text-gray-200 w-full md:w-[70%] ">
-            TVINM is a society club which was formed on 27 December 2019 at Thambatty Village with a strong motive to develop the village and to provide every possible services to the people. It was officially registered under the Tamil Nadu Societies Registration Act, 1975 (Tamil Nadu Act 27 of 1975).
+            TVINM is a society club which was formed on 27 December 2019 at Thambatty Village with a strong motive to develop the village and to provide every possible services to the people. It is officially registered under the Tamil Nadu Societies Registration Act, 1975 (Tamil Nadu Act 27 of 1975).
             </p>
             <Link href="/about-us">
               <Button>About us</Button>

@@ -100,18 +100,18 @@ const Nav = () => {
               </a>
             ))}
           </ul>
-          <div className="block md:hidden">
+          <div className="block md:hidden ">
             <Link href={"/contact"}>
-              <Button className="bg-yellow-500 text-black shadow-lg hover:bg-yellow-500">
-                JOIN US
+              <Button className="bg-yellow-500 text-black shadow-lg hover:bg-yellow-500 ">
+                CONTACT US
               </Button>
             </Link>
           </div>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block ">
           <Link href={"/contact"}>
-            <Button className="bg-yellow-500 text-black shadow-lg hover:bg-yellow-500">
-              JOIN US
+            <Button className="bg-yellow-500 text-black shadow-lg hover:bg-yellow-500 ">
+              CONTACT US
             </Button>
           </Link>
         </div>

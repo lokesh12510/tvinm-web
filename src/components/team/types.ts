@@ -74,13 +74,13 @@ export const teamList: Team[] = [
     },
     { 
         name: "NARESH R", 
-        position: "Assistant TREASURER", 
+        position: "Assistant Treasurer", 
         imageURL: "/images/team/naresh_r.png" ,
         priority:2,
     },
     { 
         name: "SURYA VARSHINI J S", 
-        position: "Assistant TREASURER", 
+        position: "Assistant Treasurer", 
         imageURL: "/images/team/surya_varshini.png" ,
         priority:2,
     },

@@ -30,13 +30,13 @@ export const blogList:TBlog[] = [
         title:'Clean India 2.0',
         content:'Clean India 2.0 was conducted with the help of NYK providing us with fund. The plastics were collected from the houses in order to keep our surroundings clean. The main purpose of conducting this programme was to clean the public area and maintain cleanliness. The mission is to make sure the wastes are collected separately and disposed of in a proper way. ',
         imageURL:'/images/events/clean_india_2022.jpg',
-        date:new Date('13/11/2022'),
+        date:new Date('11/13/2022'),
          featured:true
     },
     {
         id:"international_yoga_day_2022",
         title:'International Yoga Day',
-        content:'To highlight the importance of Yoga and its benefits on our mind and boday, Yoga Day was conducted with the help of NYK providing us with fund. We gathered the kids in a community hall and yoga and exercises were done by them. They were guided by the elderly people who were good at doing yoga. It is also conducted to raise awareness about the importance of performing Yoga.',
+        content:'To highlight the importance of Yoga and its benefits on our mind and body, Yoga Day was conducted with the help of NYK providing us with fund. We gathered the kids in a community hall and yoga and exercises were done by them. They were guided by the elderly people who were good at doing yoga. It is also conducted to raise awareness about the importance of performing Yoga.',
         imageURL:'/images/events/international_yoga_day_2022.png',
         date:new Date('06/21/2022'),
          featured:true
@@ -52,7 +52,7 @@ export const blogList:TBlog[] = [
     {
         id:'fit_india_freedom_run',
         title:'Fit India Freedom run 2.0',
-        content:'Government of India has initiated Fit India Frredom Run 2.0. We organized Fit India Freedom Run 2.0 with the help of NYK providing us with fund. Kids participated in this program. They were guided by the college students who were the members of our society club. This run encourages fitness and helps us all to get free from obesity, laziness, stress, anxiety, disease, etc,.',
+        content:'Government of India has initiated Fit India Freedom Run 2.0. We organized Fit India Freedom Run 2.0 with the help of NYK providing us with fund. Kids participated in this program. They were guided by the college students who were the members of our society club. This run encourages fitness and helps us all to get free from obesity, laziness, stress, anxiety, disease, etc,.',
         imageURL:'/images/events/fit_india_freedom_run.jpg',
         date:new Date('01/10/2021'),
          featured:false

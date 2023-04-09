@@ -13,7 +13,25 @@ const AboutUs = () => {
                     <p className="text-lg text-white">Overview of our society club</p>
                 </div>
             </div>
-            <Container className="py-[60px]">
+            <section className="mx-auto container max-w-screen-lg px-3 py-[40px]">
+                <p className="mb-7">
+                    Thambatty Vivekanandar Illaignar Narpani Mandram is a society club which was formed on 27 December
+                    2019 at Thambatty Village with a strong motive to develop the village and to provide every possible
+                    services to the people. It is officially registered under the Tamil Nadu Societies Registration Act, 1975 (Tamil Nadu Act 27 of 1975).&nbsp;
+                    <strong className="bold">
+                        Thambatty Vivekanandar Illaignar Narpani Mandram is affiliated with Nehru Yuva Kendra, The
+                        Nilgiris District which is under Government of India- Ministry of Youth Affairs and Sports.
+                    </strong>
+                    &nbsp; Starting with less than 15 members, the rise in count has been tremendous during the past
+                    years and now with active members of 50 and above. The members of TVINM have opportunities to
+                    participate in various activities relating to community development. In addition to that, the
+                    society club also helps in building leadership qualities in every active members and motivates them
+                    to be a good leader. TVINM mainly focuses on developing the community with the support of the entire
+                    team. This society club has been a bridge which is built for a safe passage for people from their
+                    present life to a bright future. The club organizes many indoor and outdoor activities for the young
+                    kids to showcase their talents and is being a platform to develop their talents.
+                </p>
+
                 <h3 className="font-bold mb-4 text-3xl">OUR HISTORY</h3>
                 <h3 className="font-bold mb-4 text-lg">DECEMBER 27, 2019- Start of Society Club</h3>
                 <p className="mb-3">
@@ -78,12 +96,12 @@ const AboutUs = () => {
                 <p className="mb-3">
                     June 10, 2021- Tree plantation activity. Planted tree saplings in and around the Village.{" "}
                 </p>
-                <p className="mb-3">June 21, 2021- Yoga day program was organized at our village </p>
+                <p className="mb-3">June 21, 2021- Yoga day program was organized at our village. </p>
                 <p className="mb-3">
                     August 29, 2021- National Sports day was celebrated at our village with kids participating in it.{" "}
                 </p>
                 <p className="mb-3">
-                    October 2012- Fit India Freedom Run 2.0 was organized with the help of NYK providing us with fund.
+                    October 2021- Fit India Freedom Run 2.0 was organized with the help of NYK providing us with fund.
                 </p>
                 <h3 className="font-bold my-4 text-3xl">2022</h3>
                 <p className="mb-3">
@@ -98,7 +116,11 @@ const AboutUs = () => {
                 </p>
                 <p className="mb-3">{`March 27, 2022- "Social Worker Award'' was honoured to our Club by BADUGAR KALACHARA PADHUKAPPU IYAKKAM.`}</p>
                 <p className="mb-3">March 30, 2022- Sports materials were received from NYK. </p>
-                May 29, 2022- Honoring our former village Head B. Iyer for his continuous services over the past years.
+                <p className="mb-3">
+                    {" "}
+                    May 29, 2022- Honoring our former village Head B. Iyer for his continuous services over the past
+                    years.{" "}
+                </p>
                 <p className="mb-3">
                     June 19, 2022- Talent Chase- An online competition prize distribution program was organized in ooty
                     at the Hoticulture Complex with chief guest S. Shibhila Mary, Joint Director of Horticulture (i/c).
@@ -117,10 +139,10 @@ const AboutUs = () => {
                     at Rotary Ashiya School, Ooty.{" "}
                 </p>
                 <p className="mb-3">
-                    Jan 2023- Competition 5- National Youth day was celebrated with the help of NYK providing us with
-                    fund by conducting a few competitions. (Carrom, Chess, Badminton, Football)
+                    January 2023- Competition 5- National Youth day was celebrated with the help of NYK providing us
+                    with fund by conducting a few competitions. (Carrom, Chess, Badminton, Football).
                 </p>
-            </Container>
+            </section>
         </>
     );
 };
