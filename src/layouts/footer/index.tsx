@@ -39,13 +39,16 @@ const Footer = () => {
                             <li className={classes.link}>Events</li>
                         </Link>
                         <Link href={"/talentChase"}>
-                            <li className={classes.link}>Talent chase</li>
+                            <li className={classes.link}>Talent Chase</li>
                         </Link>
                         <Link href={"/team"}>
-                            <li className={classes.link}>Our team</li>
+                            <li className={classes.link}>Our Team</li>
                         </Link>
                         <Link href={"/contact"}>
-                            <li className={classes.link}>Contact us</li>
+                            <li className={classes.link}>Contact Us</li>
+                        </Link>
+                        <Link href={"/privacy-policy"}>
+                            <li className={classes.link}>Privacy Policy</li>
                         </Link>
                     </ul>
                 </div>
