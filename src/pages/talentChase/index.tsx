@@ -23,6 +23,7 @@ const TalentChase = () => {
                     alt={"talent Chase 23"}
                     fill
                     className="object-fill"
+                    priority
                 />
             </div>
 
@@ -36,18 +37,18 @@ const TalentChase = () => {
                     </div>
                 </div>
                 <div className="z-2 relative">
-                    <p className=" font-bold uppercase">
-                        Thank you for the grand success of TALENT CHASE 2022 <br />
+                    <p className="font-bold uppercase text-xl">
+                        Thank you for the grand success of TALENT CHASE 2023 <br />
                     </p>
 
-                    <p className="mb-3">
+                    {/* <p className="mb-3">
                         Now we are opening the registration for this year, please register through below link.
                     </p>
                     <Link target="_blank" href={FORM_LINK}>
                         <button className="bg-yellow-500 text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-600 duration-500  whitespace-nowrap uppercase shadow-xl">
                             Register Now
                         </button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
 
@@ -67,15 +68,15 @@ const TalentChase = () => {
                 <div className="mb-5">
                     <p className="text-gray-800 mb-2">
                         1. Participants are requested to click{" "}
-                        <Link target="_blank" href={FORM_LINK}>
-                            <span className="font-bold text-teal-700 italic underline px-2">Register Now</span>
+                        <Link target="_blank" href={FORM_LINK} className="pointer-events-none">
+                            <span className="font-bold text-gray-400 italic underline px-2 ">Register Now</span>
                         </Link>{" "}
                         and register their names.
                     </p>
                     <p className="text-gray-800 mb-2 pl-4">
                         போட்டியில் பங்குபெறுபவர்கள்{" "}
                         <Link target="_blank" href={FORM_LINK}>
-                            <span className="font-bold text-teal-700 italic underline px-2">இப்போது பதிவுசெய்க</span>
+                            <span className="font-bold text-gray-400 italic underline px-2">இப்போது பதிவுசெய்க</span>
                         </Link>{" "}
                         என்பதைக் கிளிக் செய்து தங்கள் பெயர்களைப் பதிவு செய்யுமாறு கேட்டுக் கொள்ளப்படுகிறார்கள்
                     </p>
@@ -112,7 +113,7 @@ const TalentChase = () => {
                                 <p className="text-center my-2">
                                     Pay to <span className="font-bold uppercase">Harshath</span>{" "}
                                 </p>
-                                <p className="text-center my-1">+91 99436 22690</p>
+                                {/* <p className="text-center my-1">+91 99436 22690</p> */}
                                 <p className="text-center my-2">
                                     Classes <span className="font-bold uppercase">6th - 12th</span>{" "}
                                 </p>
@@ -131,7 +132,7 @@ const TalentChase = () => {
                                 <p className="text-center my-2">
                                     Pay to <span className="font-bold uppercase">Yakash</span>{" "}
                                 </p>
-                                <p className="text-center my-1">+91 63838 10941</p>
+                                {/* <p className="text-center my-1">+91 63838 10941</p> */}
                                 <p className="text-center my-2">
                                     <span className="font-bold uppercase">Pre-KG</span> - Class{" "}
                                     <span className="font-bold uppercase">5th</span>{" "}
@@ -199,11 +200,33 @@ const TalentChase = () => {
                 <div className="mb-10">
                     <h4 className="font-bold italic text-lg mb-3">Event coordinators:</h4>
 
-                    <p className="mb-2">Akshaya R - 63693 13320</p>
-                    <p className="mb-2">Nivetha S - 96266 92367</p>
+                    <p className="mb-2">Akshaya R</p>
+                    <p className="mb-2">Nivetha S</p>
                 </div>
 
-                <div className="text-2xl my-5 border-b-2 font-bold text-center">Glimpse of Talent chase 2022</div>
+                <div className="text-2xl my-5 border-b-2 font-bold text-center">Winners of Talent chase 2023</div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                <div className="h-[200px] md:h-[400px] p-1 md:p-1 relative overflow-hidden">
+                    <Image
+                        fill
+                        alt="gallery"
+                        className="block h-full w-full rounded-xl object-contain object-top  p-1 md:p-1"
+                        src="/images/talentChase/poster.png"
+                    />
+                </div>
+                <div className="h-[200px] md:h-[400px] p-1 md:p-1 relative overflow-hidden">
+                    <Image
+                        fill
+                        alt="gallery"
+                        className="block h-full w-full rounded-xl object-contain object-top  p-1 md:p-1"
+                        src="/images/talentChase/poster.png"
+                    />
+                </div>
+                </div>
+                
+
+                <div className="text-2xl my-5 border-b-2 font-bold text-center">Winners of Talent chase 2022</div>
 
                 <div className="w-full h-[200px]  md:h-[400px] p-1 md:p-1 relative overflow-hidden">
                     <Image

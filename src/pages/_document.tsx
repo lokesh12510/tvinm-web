@@ -16,9 +16,9 @@ export default function Document() {
                 <meta property="og:image" content="https://tvinm.com/logo.png"/>
                 <meta property="og:url" content="https://tvinm.com/"/>
 
-                <meta http-equiv="Cache-Control" content="no-cache" />
-                <meta http-equiv="Pragma" content="no-cache" />
-                <meta http-equiv="Expires" content="0" />
+                <meta httpEquiv="Cache-Control" content="no-cache" />
+                <meta httpEquiv="Pragma" content="no-cache" />
+                <meta httpEquiv="Expires" content="0" />
             </Head>
 
             <body>

@@ -1,7 +1,7 @@
 import MainBanner from "@/components/banner/MainBanner";
 import BlogSection from "@/components/blog/Index";
 import NYKSection from "@/components/nykSection/Index";
-import UpcomingEvent from "@/components/upcomingEvent/Index";
+// import UpcomingEvent from "@/components/upcomingEvent/Index";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
             </Head>
             <MainBanner />
 
-            <UpcomingEvent />
+            {/* <UpcomingEvent /> */}
 
             <NYKSection />
 
