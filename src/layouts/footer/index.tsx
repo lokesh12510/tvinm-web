@@ -73,7 +73,7 @@ const Footer = () => {
         </Container>
 
         <div className="bg-black p-1 px-4 text-center">
-          <p className="text-white">&copy; TVINM 2023</p>
+          <p className="text-white">&copy; TVINM {new Date().getFullYear()}</p>
         </div>
       </>
     );
