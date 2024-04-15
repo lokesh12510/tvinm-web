@@ -102,8 +102,8 @@ const TalentChase = () => {
                             <div className="col-span-12 md:col-span-6 mx-auto">
                                 <div className="w-[200px] h-[200px] relative">
                                     <Image
-                                        src={"/images/talentChase/harshath-qr-code.jpg"}
-                                        alt="harshath-qr-code"
+                                        src={"/images/talentChase/scan_2.png"}
+                                        alt="scan_2"
                                         width={200}
                                         height={200}
                                         className="object-contain"
@@ -113,7 +113,7 @@ const TalentChase = () => {
                                 <p className="text-center my-2">
                                     Pay to <span className="font-bold uppercase">PRATHIKA</span>{" "}
                                 </p>
-                                {/* <p className="text-center my-1">+91 99436 22690</p> */}
+                                <p className="text-center my-1">+91 85259 44301</p>
                                 <p className="text-center my-2">
                                     Classes <span className="font-bold uppercase">6th - 12th</span>{" "}
                                 </p>
@@ -121,8 +121,8 @@ const TalentChase = () => {
                             <div className="col-span-12 md:col-span-6   mx-auto">
                                 <div className="w-[200px] h-[200px] relative">
                                     <Image
-                                        src={"/images/talentChase/yakash-qr-code.jpg"}
-                                        alt="yakash-qr-code"
+                                        src={"/images/talentChase/scan_1.jpg"}
+                                        alt="scan_1"
                                         width={200}
                                         height={200}
                                         className="object-contain"
@@ -132,9 +132,9 @@ const TalentChase = () => {
                                 <p className="text-center my-2">
                                     Pay to <span className="font-bold uppercase">MAGISHA</span>{" "}
                                 </p>
-                                {/* <p className="text-center my-1">+91 63838 10941</p> */}
+                                <p className="text-center my-1">+91 99442 65958</p>
                                 <p className="text-center my-2">
-                                    Classes <span className="font-bold uppercase">LKG - 5th</span>
+                                    Classes <span className="font-bold uppercase">Pre-KG - 5th</span>
                                 </p>
                             </div>
                         </div>
