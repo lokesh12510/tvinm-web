@@ -4,7 +4,6 @@ export const competitionList = [
     "Dancing",
     "English Handwriting",
     "English Speech",
-    "Little Champs",
     "Special Talent Showcase",
     "Fancy Dress",
 ];

@@ -42,7 +42,7 @@ const TalentChase = () => {
                     </p>
 
                     <p className="mb-3">
-                        Now we are opening the registration for this year, please register through below link.
+                        Now we are opening the registration for the year, please register through below link.
                     </p>
                     <Link target="_blank" href={FORM_LINK}>
                         <button className="bg-purple-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-purple-800 duration-500  whitespace-nowrap uppercase shadow-xl">
@@ -172,27 +172,11 @@ const TalentChase = () => {
                         பதிவு செய்வதற்குரிய காலம் முடிந்தவுடன் நிகழ்வு நேர அட்டவணை அறிவிக்கப்படும்.
                     </p>
 
-                    <p className="text-gray-800 mb-2">
-                        7. The participants will be added to other separate groups according to the events they choose
-                        to participate in.
-                    </p>
-                    <p className="text-gray-800 mb-2 pl-4">
-                        பங்கேற்பாளர்கள் பங்கேற்க விரும்பும் நிகழ்வுகளுக்கு ஏற்ப மற்ற தனி குழுக்களில்
-                        சேர்க்கப்படுவார்கள்.
-                    </p>
-
                     <p className="text-gray-800  mb-2">
-                        8. The participants should send their respective works to the allotted phone number.
+                        7. The works done by the participants should be uploaded in the link provided.
                     </p>
                     <p className="text-gray-800 mb-2 pl-4">
-                        பங்கேற்பாளர்கள் தங்களின் படைப்புகளை ஒதுக்கப்பட்ட தொலைபேசி எண்ணுக்கு அனுப்ப வேண்டும்.
-                    </p>
-
-                    <p className="text-gray-800  mb-2">
-                        9. For each event, a separate group will be created and the information will be passed.
-                    </p>
-                    <p className="text-gray-800 mb-2 pl-4">
-                        ஒவ்வொரு நிகழ்விற்கும் தனித்தனி குழு உருவாக்கப்பட்டு தகவல் அனுப்பப்படும்.
+                        பங்கேற்பாளர்கள் செய்த படைப்புகள் கொடுக்கப்பட்டுள்ள இணைப்பில் பதிவேற்றம் செய்யப்பட வேண்டும்.
                     </p>
                 </div>
 
@@ -200,13 +184,13 @@ const TalentChase = () => {
                     <h4 className="font-bold italic text-lg mb-3">Event coordinators:</h4>
 
                     <p className="mb-2">Akshaya R</p>
-                    <p className="mb-2">Nivetha S</p>
+                    <p className="mb-2">Shrinitha R</p>
                 </div>
 
                 <div className="text-2xl my-5 border-b-2 font-bold text-center">Winners of Talent chase 2023</div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                <div className="h-[200px] md:h-[400px] p-1 md:p-1 relative overflow-hidden">
+                <div className="h-[200px] md:h-[300px] p-1 md:p-1 relative overflow-hidden">
                     <Image
                         fill
                         alt="gallery"
@@ -214,7 +198,7 @@ const TalentChase = () => {
                         src="/images/talentChase/poster.png"
                     />
                 </div>
-                <div className="h-[200px] md:h-[400px] p-1 md:p-1 relative overflow-hidden">
+                <div className="h-[200px] md:h-[300px] p-1 md:p-1 relative overflow-hidden">
                     <Image
                         fill
                         alt="gallery"
@@ -222,6 +206,44 @@ const TalentChase = () => {
                         src="/images/talentChase/poster.png"
                     />
                 </div>
+
+               
+                </div>
+                <div className="flex flex-wrap mb-6">
+                <div className="flex w-full flex-wrap">
+                        <div className="w-full md:w-1/2 h-[300px] p-1 md:p-1 relative overflow-hidden">
+                            <Image
+                                fill
+                                alt="gallery"
+                                className="block h-full w-full rounded-xl object-cover object-top  p-1 md:p-1"
+                                src="/images/talentChase/tc23_1.jpg"
+                            />
+                        </div>
+                        <div className="w-full md:w-1/2 h-[300px] p-1 md:p-1 relative overflow-hidden">
+                            <Image
+                                fill
+                                alt="gallery"
+                                className="block h-full w-full rounded-xl object-cover object-center  p-1 md:p-1"
+                                src="/images/talentChase/tc23_2.jpg"
+                            />
+                        </div>
+                        <div className="w-full md:w-1/2 h-[300px] p-1 md:p-1 relative overflow-hidden">
+                            <Image
+                                fill
+                                alt="gallery"
+                                className="block h-full w-full rounded-xl object-cover object-center  p-1 md:p-1"
+                                src="/images/talentChase/tc23_3.jpg"
+                            />
+                        </div>
+                        <div className="w-full md:w-1/2 h-[300px] p-1 md:p-1 relative overflow-hidden">
+                            <Image
+                                fill
+                                alt="gallery"
+                                className="block h-full w-full rounded-xl object-cover object-center  p-1 md:p-1"
+                                src="/images/talentChase/tc23_4.jpg"
+                            />
+                        </div>
+                    </div>
                 </div>
                 
 
