@@ -191,16 +191,6 @@ const AboutUs = () => {
           the help of NYK providing us with fund by conducting a few
           competitions. (Carrom, Chess, Badminton, Football).
         </p>
-        <h3 className="font-bold my-4 text-3xl">2023</h3>
-        <p className="mb-3">
-          January 15, 2023- Provision of needful things to the Mentally and
-          Physically Challenged Kids staying at Rotary Ashiya School, Ooty.{" "}
-        </p>
-        <p className="mb-3">
-          January 2023- Competition 5- National Youth day was celebrated with
-          the help of NYK providing us with fund by conducting a few
-          competitions. (Carrom, Chess, Badminton, Football).
-        </p>
         <p className="mb-3">
           June 4, 2023- Cleanliness and Shramdaan program was organised with the
           help of NYK providing us with fund.
