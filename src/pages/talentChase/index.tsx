@@ -1,16 +1,13 @@
-import Button from "@/components/button/Button";
-import Container from "@/components/ui/Container";
 import { FORM_LINK } from "@/constants";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const TalentChase = () => {
     return (
         <>
             <Head>
-                <title>Talent Chase 2024 - TVINM</title>
+                <title>Talent Chase 2025 - TVINM</title>
                 <meta name="title" content="Thambatty Vivekanandar Illaignar Narpani Mandram"></meta>
                 <meta
                     name="description"
@@ -19,8 +16,8 @@ const TalentChase = () => {
             </Head>
             <div className="w-full h-[30vh] md:h-[80vh] bg-slate-400 relative brightness-90">
                 <Image
-                    src={"/images/talentChase/talent_chase.png"}
-                    alt={"talent Chase 23"}
+                    src={"/images/talentChase/tc25_banner.png"}
+                    alt={"talent Chase 25"}
                     fill
                     className="object-fill"
                     priority
@@ -38,11 +35,11 @@ const TalentChase = () => {
                 </div>
                 <div className="z-2 relative">
                     <p className="font-bold uppercase text-xl">
-                        Thank you for the grand success of TALENT CHASE 2023 <br />
+                        Thank you for the grand success of TALENT CHASE 2024 <br />
                     </p>
 
                     <p className="mb-3">
-                        Now we are opening the registration for the year, please register through below link.
+                        Now we are opening the registration for this year, please register through below link.
                     </p>
                     <Link target="_blank" href={FORM_LINK}>
                         <button className="bg-purple-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-purple-800 duration-500  whitespace-nowrap uppercase shadow-xl">
@@ -56,7 +53,7 @@ const TalentChase = () => {
                 <p className="mb-5 text-justify">
                     TVINM in an attempt to identify and recognise the talents of children in rural areas, conducted an
                     event - Talent Chase, a platform to showcase the hidden skills of young minds.{" "}
-                    <span className="font-bold italic">Talent Chase 2022</span> & <span className="font-bold italic">Talent Chase 2023</span>  was conducted online and received more
+                    <span className="font-bold italic">Talent Chase 2022</span>, <span className="font-bold italic">Talent Chase 2023</span> & <span className="font-bold italic">Talent Chase 2024</span>  was conducted online and received more
                     than 180 participants from over 60 villages in and around Nilgiris. Various skills like Drawing,
                     Handwritting, Singing, Dancing, Speech and other unique talents of kids were assessed and rewarded
                     with cups, medals and certificates based on their individual performances and motivated them to
@@ -91,21 +88,21 @@ const TalentChase = () => {
                     <div className="bg-purple-200 py-[10px] md:py-[18px] px-2 md:px-5 mb-4 rounded-[7px]">
                         <p className="mb-1">
                             Scan below respective QR Codes to complete the payment of{" "}
-                            <span className="font-bold"> ₹200 /.</span>
+                            <span className="font-bold"> ₹250 /.</span>
                         </p>
                         <p className="mb-3 italic">
                             {" "}
-                            <span className="font-bold"> NOTE : </span>The participants can pay 200 rs per head and can
+                            <span className="font-bold"> NOTE : </span>The participants can pay 250 rs per head and can
                             register for all the events.
                         </p>
                         <div className="grid grid-cols-12 gap-4 justify-center items-center mt-10">
                             <div className="col-span-12 md:col-span-6 mx-auto">
-                                <div className="w-[200px] h-[200px] relative">
+                                <div className="w-[200px] h-[240px] relative">
                                     <Image
-                                        src={"/images/talentChase/scan_2.png"}
+                                        src={"/images/talentChase/scan_2.jpg"}
                                         alt="scan_2"
                                         width={200}
-                                        height={200}
+                                        height={240}
                                         className="object-contain"
                                     />
                                 </div>
@@ -115,26 +112,26 @@ const TalentChase = () => {
                                 </p>
                                 <p className="text-center my-1">+91 85259 44301</p>
                                 <p className="text-center my-2">
-                                    Classes <span className="font-bold uppercase">6th - 12th</span>{" "}
+                                    Classes <span className="font-bold uppercase">4th - 8th</span>{" "}
                                 </p>
                             </div>
                             <div className="col-span-12 md:col-span-6   mx-auto">
-                                <div className="w-[200px] h-[200px] relative">
+                                <div className="w-[200px] h-[240px] relative">
                                     <Image
                                         src={"/images/talentChase/scan_1.jpg"}
                                         alt="scan_1"
                                         width={200}
-                                        height={200}
+                                        height={240}
                                         className="object-contain"
                                     />
                                 </div>
 
                                 <p className="text-center my-2">
-                                    Pay to <span className="font-bold uppercase">MAGISHA</span>{" "}
+                                    Pay to <span className="font-bold uppercase">SHRINITHA</span>{" "}
                                 </p>
-                                <p className="text-center my-1">+91 99442 65958</p>
+                                <p className="text-center my-1">+91 88702 75991</p>
                                 <p className="text-center my-2">
-                                    Classes <span className="font-bold uppercase">Pre-KG - 5th</span>
+                                    Classes <span className="font-bold uppercase">LKG - 3rd</span>
                                 </p>
                             </div>
                         </div>
@@ -183,8 +180,8 @@ const TalentChase = () => {
                 <div className="mb-10">
                     <h4 className="font-bold italic text-lg mb-3">Event coordinators:</h4>
 
-                    <p className="mb-2">Akshaya R</p>
-                    <p className="mb-2">Shrinitha R</p>
+                    <p className="mb-2">Ashmitha</p>
+                    <p className="mb-2">Pooja</p>
                 </div>
 
                 <div className="text-2xl my-5 border-b-2 font-bold text-center">Winners of Talent chase 2023</div>
