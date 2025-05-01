@@ -17,7 +17,7 @@ const UpcomingEvent = () => {
                     </div>
                     <h1 className="underline text-yellow-500 mb-4 text-2xl md:text-4xl">Ongoing event</h1>
                     <p className="text-white text-[1.3rem] leading-7 mb-3">
-                        <span className="font-bold">Talent Chase 4</span> {`is an online competition conducted for the kids and school students. Talent Chase is a great platform to showcase the kid's talents to this world. A participant certificate will be provided for the participants and the winners will be awarded with cash prizes, certificates, medals and trophies.`}
+                        <span className="font-bold">Talent Chase 4</span> {`is an online competition conducted for the kids and school students. Talent Chase is a great platform to showcase the kid's talents to this world. A participant certificate will be provided for the participants and the winners will be rewarded.`}
                     </p>
 
                     <p className="text-white font-bold italic text-2xl mb-4">{`"Showcase your talents and grab the prizes".`}</p>
